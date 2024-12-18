@@ -1,0 +1,40 @@
+AI, but simple Neural Network Manim Template
+
+
+▄██████░██░░░██░██████░██████▄░▄█████
+██░░░░░░██░░░██░░░██░░░██░░░██░██░░░░
+██░░███░██░░░██░░░██░░░██░░░██░█████░
+██░░░██░██░░░██░░░██░░░██░░░██░██░░░░
+▀█████▀░▀█████▀░██████░██████▀░▀█████
+
+
+Install Manim Community Edition, the latest version (0.18.1)
+
+Visit the below website for the tutorial:
+https://docs.manim.community/en/stable/installation.html
+
+Then, either install through package manager, or manually (what I did)
+For manual installation, you need to install ffmpeg and change the path, then install manim through pip (read the tutorial)
+
+Python 3.8 or greater required (https://www.python.org/downloads/)
+
+-----------------------------------------------------------------------------
+
+To run the script, open command line and navigate to the directory with the script.
+
+Then type: 
+manim -p {File Name} {Class Name}
+
+While ignoring braces and filling the file name with extension (.py) and class name in their respective slots.
+
+-----------------------------------------------------------------------------
+
+Some basic knowledge about Manim:
+
+- When you run the file, you choose the class to run
+- In the chosen class, there will be a construct method, and all the animations will be read from there
+- Manim uses Mobjects as objects that can be animated (https://docs.manim.community/en/stable/reference/manim.mobject.mobject.Mobject.html)
+- self.play({Animations here}) is used to play an animation, there are many animations to choose from (https://docs.manim.community/en/stable/reference_index/animations.html)
+- self.wait(t) waits for t seconds 
+
+For more in depth tutorials on how to use manim, you can consult the official documentation (https://docs.manim.community/en/stable) or see the example given in the python file.
